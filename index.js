@@ -1,10 +1,5 @@
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 
-app.use((ctx) => {
-  ctx.response.body = "Hello World Third try!";
-});
-
-
 const messages = [];
 
 const router = new Router();
